@@ -1,0 +1,8 @@
+name: _PluginTemplate
+main: me.chaseoes.plugintemplate._PluginTemplate
+version: 1.0
+description: The template I use for all my plugins. The name starts with _ so it appears first in my file listings.
+commands:
+  plugintemplate:
+    description: The central command for the _PluginTemplate plugin.
+    usage: /<command> [args]
