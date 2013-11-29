@@ -1,8 +1,8 @@
-name: _PluginTemplate
-main: me.chaseoes.plugintemplate._PluginTemplate
-version: 1.0
-description: The template I use for all my plugins. The name starts with _ so it appears first in my file listings.
+name: ${project.name}
+main: ${project.groupId}.${upload.dbo.slug}.${project.name}
+version: ${project.version}
+description: ${project.description}
 commands:
   plugintemplate:
-    description: The central command for the _PluginTemplate plugin.
+    description: The central command for the ${project.name} plugin.
     usage: /<command> [args]
