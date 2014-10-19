@@ -1,6 +1,6 @@
 # _PluginTemplate
 
-This is the Maven template I use for all my plugins. The name starts with _ so it appears first in my file listings.
+This is the Maven template I use for all my Bukkit plugins. The name starts with _ so it appears first in my file listings.
 
 ## Compilation
 
