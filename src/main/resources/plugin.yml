@@ -1,8 +1,10 @@
-name: ${project.name}
-main: ${project.groupId}.${upload.dbo.slug}.${project.name}
-version: ${project.version}
+name: ${plugin.name}
+main: ${plugin.groupID}.${plugin.name.lower}.${plugin.name}
+version: ${plugin.version}
 description: ${project.description}
+website: ${plugin.url}
+authors: [${plugin.author}]
 commands:
-  ${upload.dbo.slug}:
-    description: The central command for the ${project.name} plugin.
+  ${plugin.name.lower}:
+    description: A command for the ${plugin.name} plugin.
     usage: /<command> [args]
